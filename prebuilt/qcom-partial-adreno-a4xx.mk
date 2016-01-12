@@ -17,12 +17,11 @@ PRODUCT_PACKAGES += \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
 	libGLESv2_adreno \
-	libQTapGLES \
 	libq3dtools_adreno \
 	libq3dtools_esx \
 	libC2D2 \
 	libCB \
-	libOpenCL \
+	libbccQTI \
 	libRSDriver_adreno \
 	libadreno_utils \
 	libc2d30-a3xx \
@@ -30,6 +29,5 @@ PRODUCT_PACKAGES += \
 	libgsl \
 	libllvm-glnext \
 	libllvm-qcom \
-	libmm-qdcm \
 	librs_adreno \
 	librs_adreno_sha1
