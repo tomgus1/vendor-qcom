@@ -24,9 +24,10 @@ PRODUCT_PACKAGES += \
 	libRSDriver_adreno \
 	libadreno_utils \
 	libc2d30-a3xx \
+	libc2d30-a4xx \
 	libgsl \
 	libllvm-qcom \
 	librs_adreno \
 	librs_adreno_sha1 \
-	libsc-a3xx \
-	libbccQTI
+	libsc-a2xx \
+	libsc-a3xx
