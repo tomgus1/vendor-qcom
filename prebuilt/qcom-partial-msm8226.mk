@@ -27,20 +27,13 @@ PRODUCT_PACKAGES += \
 	ta_qmi_service \
 	tad_static \
 	libQSEEComAPI \
-	libacdb-fts \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
 	libactuator_bu64291gwz_camera \
 	libactuator_dw9714 \
 	libactuator_dw9714_camcorder \
 	libactuator_dw9714_camera \
-	libadiertac \
 	libadsprpc \
-	libaudcal \
-	libaudioalsa \
 	libchromaflash \
 	libchromatix_imx134_common \
 	libchromatix_imx134_cpp_liveshot \
@@ -146,7 +139,6 @@ PRODUCT_PACKAGES += \
 	libmmqjpegdma \
 	libnetmgr \
 	liboemcamera \
-	libomx-dts \
 	liboptizoom \
 	libperipheral_client \
 	libqcci_legacy \
