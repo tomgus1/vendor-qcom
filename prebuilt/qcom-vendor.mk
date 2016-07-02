@@ -1,4 +1,4 @@
-$(call inherit-product, vendor/qcom/prebuilt/qcom-partial-msm8226.mk)
+$(call inherit-product, vendor/qcom/prebuilt/qcom-partial-msm8952.mk)
 $(call inherit-product, vendor/qcom/prebuilt/qcom-partial-msm8974.mk)
 $(call inherit-product, vendor/qcom/prebuilt/qcom-partial-msm8994.mk)
 $(call inherit-product, vendor/qcom/prebuilt/qcom-partial-adreno-a3xx.mk)
