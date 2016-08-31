@@ -16,12 +16,17 @@ PRODUCT_PACKAGES += \
 	libchromaflash \
 	libfastcvadsp_stub \
 	libfastcvopt \
+	libjni_dualcamera \
+	libmmcamera2_dcrf \
 	libmmcamera2_frame_algorithm \
 	libmmcamera2_is \
 	libmmcamera2_q3a_core \
 	libmmcamera2_stats_algorithm \
 	libmmcamera_chromaflash_lib \
+	libmmcamera_dcrf_lib \
 	libmmcamera_hdr_gb_lib \
+	libmmcamera_llvd \
+	libmmcamera_optizoom_lib \
 	libmmcamera_pdaf \
 	libmmcamera_pdafcamif \
 	libmmcamera_stillmore_lib \
@@ -29,6 +34,13 @@ PRODUCT_PACKAGES += \
 	libmmcamera_tintless_bg_pca_algo \
 	libmmcamera_trueportrait_lib \
 	libmmcamera_ubifocus_lib \
+	libmmsw_detail_enhancement \
+	libmmsw_math \
+	libmmsw_opencl \
+	libmmsw_platform \
+	liboptizoom \
 	libseemore \
 	libtrueportrait \
+	libts_detected_face_hal \
+	libts_face_beautify_hal \
 	libubifocus
