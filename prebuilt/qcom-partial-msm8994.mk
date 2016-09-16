@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
 	mm-qcamera-daemon \
 	msm_irqbalance \
 	netmgrd \
+	pad_controller \
 	pm-proxy \
 	pm-service \
 	qmuxd \
@@ -27,6 +28,7 @@ PRODUCT_PACKAGES += \
 	sensors \
 	ta_qmi_service \
 	tad_static \
+	touch_fusion \
 	gatekeeper.msm8994 \
 	sensors.msm8994 \
 	libQSEEComAPI \
