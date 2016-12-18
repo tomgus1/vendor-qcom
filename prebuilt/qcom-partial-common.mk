@@ -31,4 +31,17 @@ PRODUCT_PACKAGES += \
 	libmmcamera_ubifocus_lib \
 	libseemore \
 	libtrueportrait \
-	libubifocus
+	libubifocus 
+
+PRODUCT_COPY_FILES += \
+vendor/qcom/prebuilt/proprietary/common/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+vendor/qcom/prebuilt/proprietary/common/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+vendor/qcom/prebuilt/proprietary/common/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
+vendor/qcom/prebuilt/proprietary/common/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+vendor/qcom/prebuilt/proprietary/common/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+vendor/qcom/prebuilt/proprietary/common/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+vendor/qcom/prebuilt/proprietary/common/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+vendor/qcom/prebuilt/proprietary/common/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+vendor/qcom/prebuilt/proprietary/common/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+vendor/qcom/prebuilt/proprietary/common/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+vendor/qcom/prebuilt/proprietary/common/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so 

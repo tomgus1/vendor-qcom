@@ -223,4 +223,14 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := QtiTelephonyService
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := app/QtiTelephonyservice/QtiTelephonyservice.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+include $(BUILD_PREBUILT)
 endif
